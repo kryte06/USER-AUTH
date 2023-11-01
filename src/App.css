@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Auth-form-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
 }
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.card
+{
+  margin-top: 20%;
+}
+/* App Component Styles */
+
+.container-fluid {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  color: #555;
+}
+/* SystemSelection Component Styles */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Additional styles for the SystemSelection component */
+/* Navbar Component Styles */
+/* Add your Navbar component styles here */
+
+/* SystemSelection Component Styles */
+/* Add your SystemSelection component styles here */
